@@ -22,7 +22,8 @@ You are given the String equation containing an equation of the form "A*B=C", wh
 - The numbers represented by A, B, C will not have leading zeros.
 
 ### Examples
-0)
+**#1**
+
 `42*47=1?74`
 
 Returns: 9
@@ -30,14 +31,14 @@ Returns: 9
 We know that 42*47 = 1974, so the missing digit is 9.
 
 
-1)
+**#2**
 `4?*47=1974`
 
 Returns: 2
 
 The same equation, another missing digit.
 
-2)
+**#3**
 
 "42*?7=1974"
 
@@ -45,7 +46,7 @@ Returns: 4
 
 And again the same equation.
 
-3)
+**#4**
 
 "42*?47=1974"
 
@@ -53,7 +54,7 @@ Returns: -1
 
 This test case has no valid solution. The numbers cannot have leading zeros, so we cannot fill in a zero in front of 47.
 
-4)
+**#5**
 
 "2*12?=247"
 
