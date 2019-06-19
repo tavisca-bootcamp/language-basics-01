@@ -11,6 +11,7 @@ namespace Tavisca.Bootcamp.LanguageBasics.Exercise1
             Test("42*?7=1974", 4);
             Test("42*?47=1974", -1);
             Test("2*12?=247", -1);
+            Console.ReadKey(true);
         }
 
         private static void Test(string args, int expected)
